@@ -10,6 +10,9 @@ def mult(x,y):
 def div(x,y):
     return x**y
 
+def mod(x,y):
+    return x%y
+
 if __name__ == "__main__":
     num1 = input("Please enter a number: ")
     op = input("Please enter an operation('+';'-';'x';'d'): ")
