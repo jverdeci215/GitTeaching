@@ -12,7 +12,7 @@ def div(x,y):
 
 if __name__ == "__main__":
     num1 = input("Please enter a number: ")
-    op = input("Please enter an operation('+';'-';'x'): ")
+    op = input("Please enter an operation('+';'-';'x';'d'): ")
     num2 = input("Please enter another number: ")
     if(op == "+"): print("The sum is: {}".format(add(int(num1),int(num2))))
     elif(op == "-"): print("The difference is: {}".format(diff(int(num1),int(num2))))
