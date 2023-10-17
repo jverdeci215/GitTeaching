@@ -8,9 +8,9 @@ def mult(x,y):
     return x*y
 
 if __name__ == "__main__":
-    num1 = input("Please Enter A Number: ")
-    num2 = input("Please Enter Another Number: ")
-    op = input("Please enter an operation(add/diff/mult): ")
-    if(op == "add"): print("The sum is: {}".format(add(int(num1),int(num2))))
-    elif(op == "diff"): print("The difference is: {}".format(diff(int(num1),int(num2))))
-    elif(op == "mult"): print("The product is: {}".format(mult(int(num1),int(num2))))
+    num1 = input("Please enter a number: ")
+    op = input("Please enter an operation('+';'-';'x'): ")
+    num2 = input("Please enter another number: ")
+    if(op == "+"): print("The sum is: {}".format(add(int(num1),int(num2))))
+    elif(op == "-"): print("The difference is: {}".format(diff(int(num1),int(num2))))
+    elif(op == "x"): print("The product is: {}".format(mult(int(num1),int(num2))))
