@@ -8,7 +8,7 @@ def mult(x,y):
     return x*y
 
 def div(x,y):
-    return x/y
+    return x**y
 
 if __name__ == "__main__":
     num1 = input("Please enter a number: ")
