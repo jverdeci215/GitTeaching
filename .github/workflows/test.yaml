@@ -8,7 +8,7 @@ jobs:
     
     runs-on: macos-latest
 
-      steps:
+    steps:
         
-        - uses: PrajjawalBanati/Python-actions@0.0.1
+       - uses: PrajjawalBanati/Python-actions@0.0.1
             
