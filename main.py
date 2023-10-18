@@ -7,7 +7,8 @@ def mult (x,y):
     return x*y
 
 def div(x,y):
-    return x**y
+    div = x/y
+    return div
 
 def mod(x,y):
     return x%y
