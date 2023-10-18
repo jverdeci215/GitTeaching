@@ -1,0 +1,14 @@
+name: QA-Test
+
+on: [push]
+
+jobs:
+  
+  test:
+    
+    runs-on: macos-latest
+
+      steps:
+        
+        - uses: PrajjawalBanati/Python-actions@0.0.1
+            
