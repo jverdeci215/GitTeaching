@@ -13,13 +13,6 @@ jobs:
     - run: python main.py 10 - 5
     - run: python main.py 10 / 5
 
-    - name: Write File
-      uses: DamianReeves/write-file-action@v1.2
-      with:
-        path: ~/Desktop/test-completion.txt
-        write-mode: overwrite
-        contents: |
-          Test Complete
 
             
             
